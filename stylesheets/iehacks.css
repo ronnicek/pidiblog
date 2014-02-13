@@ -1,0 +1,13 @@
+* {	behavior: url("stylesheets/iepngfix.htc"); /* IE HACK */ }
+body {
+	text-align: center; /* IE HACK */
+}
+#main {
+	text-align: left; /* IE HACK */
+}
+h1 {
+	margin-top: 20px; /* IE HACK */
+}
+.CommentsImage {
+	_width: 14px;
+}
