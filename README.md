@@ -106,11 +106,11 @@ following form:
 
 Available options are:
 
- | Option  | Meaning |
- | ------- | ------- |
- | apiCode  | an authorization code set in the configuration file |
- | password | MD5 checksum of the valid password |
- | text     | a message text; use + instead of spaces, e.g. Hello+World! |
+| Option  | Meaning |
+| --- | --- |
+| apiCode  | an authorization code set in the configuration file |
+| password | MD5 checksum of the valid password |
+| text     | a message text; use + instead of spaces, e.g. Hello+World! |
 
 Possible return values:
 
