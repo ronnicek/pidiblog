@@ -47,7 +47,7 @@ the look and feel of your pidiblog:
   $api      = 0;                   // 1 or 0 - enable or disable the API
 ```
 
-# 3.1 Menu Related Settings
+## 3.1 Menu Related Settings
 
 First thing you might want to adjust  is the appearance  of the menu bar at
 the top of the page. Currently, there are only two options: whether to list
@@ -57,7 +57,7 @@ disable any of these by changing the value of the $showmenu and/or $showrss
 variable to 0.
 
 
-# 3.2 Comments Related Settings
+## 3.2 Comments Related Settings
 
 Although pidiblog has a built-in support for users' comments,  not everyone
 find them as useful  as their creators,  or is satisfied with their default
@@ -80,7 +80,7 @@ Finally, changing the value of $enableComments to 0  disables comments com-
 pletely; this will, of course, render all previous options insignificant.
 
 
-# 3.3 Posts Listing Related Settings
+## 3.3 Posts Listing Related Settings
 
 Another thing  you might  want to adjust  is the look of the pidiblog posts
 listing, or, at least, the date format. The full date (24 December 2008) is
@@ -106,13 +106,11 @@ following form:
 
 Available options are:
 
- ----------+--------------------------------------------------------------
-  Option   | Meaning
- ----------+--------------------------------------------------------------
-  apiCode  | an authorization code set in the configuration file
-  password | MD5 checksum of the valid password
-  text     | a message text; use + instead of spaces, e.g. Hello+World!
- ----------+--------------------------------------------------------------
+ | Option  | Meaning |
+ | ------- | ------- |
+ | apiCode  | an authorization code set in the configuration file |
+ | password | MD5 checksum of the valid password |
+ | text     | a message text; use + instead of spaces, e.g. Hello+World! |
 
 Possible return values:
 
