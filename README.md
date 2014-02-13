@@ -106,24 +106,22 @@ following form:
 
 Available options are:
 
-| Option  | Meaning |
-| --- | --- |
-| apiCode  | an authorization code set in the configuration file |
-| password | MD5 checksum of the valid password |
-| text     | a message text; use + instead of spaces, e.g. Hello+World! |
+| Option   | Meaning							|
+| -------- | ----------------------------------------------------------	|
+| apiCode  | an authorization code set in the configuration file	|
+| password | MD5 checksum of the valid password				|
+| text     | a message text; use + instead of spaces, e.g. Hello+World!	|
 
 Possible return values:
 
- ----------+--------------------------------------------------------------
-  Value    | Meaning
- ----------+--------------------------------------------------------------
-  0        | everything is OK, the message has been added successfully
-  1        | invalid apiCode
-  2        | invalid password
-  3        | empty or missing message text
-  4        | unable to add the message; please try it from the website,
-           | you may have set incorrect permissions to the txts/ directory
- ----------+--------------------------------------------------------------
+| Value    | Meaning								|
+| -------- | ------------------------------------------------------------------ |
+|  0       | everything is OK, the message has been added successfully		|
+|  1       | invalid apiCode							|
+|  2       | invalid password							|
+|  3       | empty or missing message text					|
+|  4       | unable to add the message; please try it from the website		|
+|          | you may have set incorrect permissions to the txts/ directory	|
 
 
 # 6. Bugs
