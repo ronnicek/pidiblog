@@ -1,16 +1,17 @@
-1. General Hosting Requirements
+# 1. General Hosting Requirements
 
 Working  installation of PHP is required in order  to run this application;
 PHP 5 is known to work, but older versions might work as well.
 
 
-2. Basic Settings
+# 2. Basic Settings
 
 Although pidiblog is instantly fully operative,  there are few options such
 as blog name or password you would probably like to change.  To do so, open
 the  config.php  in your favourite text  editor and find  following section
 near the beginning of the file:
 
+```php
   // change your pidiblog settings here:
   $blogname = "Your blog name :)"; // your pidiblog name
   $title    = "";                  // when empty, use blogname instead
@@ -26,11 +27,12 @@ UTF-8 encoding is recommended  to avoid possible issues with special chara-
 cters.
 
 
-3. Additional Settings
+# 3. Additional Settings
 
 Besides these basic settings,  there are few options enabling you to adjust
 the look and feel of your pidiblog:
 
+```php
   $fullDate = 1;                   // 1 or 0 - whether to use 1 December...
   $showmenu = 1;                   // 1 or 0 - whether to show menu bar
   $showrss  = 1;                   // 1 or 0 - whether to list RSS in menu
@@ -44,7 +46,7 @@ the look and feel of your pidiblog:
   $api      = 0;                   // 1 or 0 - enable or disable the API
 
 
-3.1 Menu Related Settings
+# 3.1 Menu Related Settings
 
 First thing you might want to adjust  is the appearance  of the menu bar at
 the top of the page. Currently, there are only two options: whether to list
@@ -54,7 +56,7 @@ disable any of these by changing the value of the $showmenu and/or $showrss
 variable to 0.
 
 
-3.2 Comments Related Settings
+# 3.2 Comments Related Settings
 
 Although pidiblog has a built-in support for users' comments,  not everyone
 find them as useful  as their creators,  or is satisfied with their default
@@ -77,7 +79,7 @@ Finally, changing the value of $enableComments to 0  disables comments com-
 pletely; this will, of course, render all previous options insignificant.
 
 
-3.3 Posts Listing Related Settings
+# 3.3 Posts Listing Related Settings
 
 Another thing  you might  want to adjust  is the look of the pidiblog posts
 listing, or, at least, the date format. The full date (24 December 2008) is
@@ -85,7 +87,7 @@ displayed by default;  to use the  DD.MM.YYYY  format (24.12.2008) instead,
 simply change the value of $fullDate to 0.
 
 
-4. Installation on Server
+# 4. Installation on Server
 
 pidiblog installation is fast and easy: simply copy the content of pidiblog
 source package to the remote server and change the permissions of the txts/
@@ -93,7 +95,7 @@ directory to 777,  so that everyone is  able to read,  write and access its
 content.
 
 
-5. API Usage
+# 5. API Usage
 
 To make the blogging experience as pleasant as possible,  pidiblog offers a
 simple  API to be used as a GET request  by a third-party software  in  the
@@ -125,13 +127,13 @@ Possible return values:
  ----------+--------------------------------------------------------------
 
 
-6. Bugs
+# 6. Bugs
 
 To report bugs,  please visit the appropriate  section on the project home-
 page: <http://code.google.com/p/pidiblog/issues/>.
 
 
-7. Author
+# 7. Author
 
 Written by Jaromir Hradilek <jhradilek@gmail.com> and Jindrich Skacel.
 
@@ -143,7 +145,7 @@ Sections, no Front-Cover Texts, and no Back-Cover Texts.
 For more information, see <http://www.gnu.org/licenses/>.
 
 
-8. Copyright
+# 8. Copyright
 
 Copyright (C) 2008 Jindrich Skacel
 
