@@ -45,7 +45,7 @@ the look and feel of your pidiblog:
   $colorCommentsLinkHrefHover = '#ccc';    // colour of comments count b...
   $emailNotification = '0';        // 0 or your email - send email if so...
   $api      = 0;                   // 1 or 0 - enable or disable the API
-
+```
 
 # 3.1 Menu Related Settings
 
@@ -102,7 +102,7 @@ To make the blogging experience as pleasant as possible,  pidiblog offers a
 simple  API to be used as a GET request  by a third-party software  in  the
 following form:
 
-  http://example.com/index.php?menu=api&apiCode=&password=&text=
+    http://example.com/index.php?menu=api&apiCode=&password=&text=
 
 Available options are:
 
