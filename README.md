@@ -21,6 +21,7 @@ near the beginning of the file:
   $name     = "your_nickname";     // if logged use this name in comments
   $email    = "your_email";        // if logged use this email in comments
   $apiCode  = "your_api_code";     // special code to authorize the soft...
+```
 
 Each line should be well commented and rather self explanatory;  the use of
 UTF-8 encoding is recommended  to avoid possible issues with special chara-
