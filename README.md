@@ -127,12 +127,12 @@ Possible return values:
 # 6. Bugs
 
 To report bugs,  please visit the appropriate  section on the project home-
-page: <http://code.google.com/p/pidiblog/issues/>.
+page: <https://github.com/ronnicek/pidiblog/issues>.
 
 
 # 7. Author
 
-Written by Jaromir Hradilek <jhradilek@gmail.com> and Jindrich Skacel.
+Written by Jaromir Hradilek <jhradilek@gmail.com> and Jindrich Skacel <ronny63@gmail.com>.
 
 Permission  is  granted  to  copy,  distribute  and/or modify this document
 under the terms of  the GNU Free Documentation License, Version 1.3 or  any
@@ -144,7 +144,7 @@ For more information, see <http://www.gnu.org/licenses/>.
 
 # 8. Copyright
 
-Copyright (C) 2008 Jindrich Skacel
+Copyright (C) 2008 Jindrich Skacel <ronny63@gmail.com>
 
 This program is free software;  see LICENCE  for copying conditions.  It is
 distributed  in the hope that it will be useful,  but WITHOUT ANY WARRANTY;
